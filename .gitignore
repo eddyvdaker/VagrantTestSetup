@@ -1,0 +1,6 @@
+disks/
+_VagrantData/
+
+.vagrant/
+*.log
+*.box
