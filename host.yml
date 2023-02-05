@@ -1,0 +1,8 @@
+# Ansible hosts file for using the test setup with Ansible
+all:
+  hosts:
+    VagrantTestServer:
+      # Host is accessed through the forwarded ports
+      ansible_host: localhost
+      ansible_port: 50022
+      ansible_user: test
