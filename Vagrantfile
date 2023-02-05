@@ -17,6 +17,7 @@ Vagrant.configure("2") do |config|
     config.vm.box = "ubuntu/focal64"
 
     # Set configuration for VirtualBox VM resources
+    config.disksize.size = '100GB'
     config.vm.provider "virtualbox" do |vb|
         vb.gui = false
         vb.cpus = 2
