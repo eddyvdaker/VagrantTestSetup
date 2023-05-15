@@ -14,7 +14,7 @@ local_disks = [
 ]
 
 Vagrant.configure("2") do |config|
-    config.vm.box = "ubuntu/focal64"
+    config.vm.box = "ubuntu/jammy64"
 
     # Set configuration for VirtualBox VM resources
     config.disksize.size = '100GB'
